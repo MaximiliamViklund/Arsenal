@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "TommyGun",
+        "DmgMin": 8,
+        "DmgMax": 20
+    },
+    {
+        "Name": "P90",
+        "DmgMin": 8,
+        "DmgMax": 10
+    }
+]
