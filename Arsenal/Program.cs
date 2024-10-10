@@ -27,12 +27,12 @@ while (Dummie.Hp>0){
     Console.Clear();
     int attackNmb=1;
     while(Dummie.Hp>0&&attackNmb<attacks){
-        attackNmb++;
         Console.WriteLine("Attack "+attackNmb);
         Console.WriteLine("Dummies Health: "+Dummie.Hp);
         Console.WriteLine("Press ENTER to shoot");
         Console.ReadLine();
         weapons[weapon].Attack(Dummie);
+        attackNmb++;
     }
     if(Dummie.Hp>0){
         Console.WriteLine("The dummie isn't dead yet");
