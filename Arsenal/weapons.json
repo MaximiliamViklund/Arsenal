@@ -5,8 +5,13 @@
         "DmgMax": 20
     },
     {
-        "Name": "P90",
+        "Name": "P99",
         "DmgMin": 8,
         "DmgMax": 12
+    },
+    {
+        "Name": "Bazooka",
+        "DmgMin": 15,
+        "DmgMax": 30
     }
 ]
